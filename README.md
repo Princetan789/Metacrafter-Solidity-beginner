@@ -14,6 +14,7 @@ The contract allows the owner to mint new tokens and burn existing tokens. Only 
 
 
 Token Name: PTC
+
 Token Symbol: PT
 
 
@@ -29,7 +30,8 @@ The mint function allows the contract owner to create and assign new tokens to a
 
 The burn function allows the contract owner to remove existing tokens from a specific address. The function reduces the total supply and updates the balance of the target address.
 
-Token Balance
+#Token Balance
+
 The balances mapping allows anyone to query the token balance of a specific address.
 
 #Deployment and Usage
@@ -43,7 +45,8 @@ Once deployed, you can interact with the contract using the provided functions:
 To mint new tokens, call the mint function and provide the target address and the number of tokens to mint. Only the contract owner can perform this action.
 To burn existing tokens, call the burn function and provide the target address and the number of tokens to burn. Only the contract owner can perform this action.
 To query the balance of a specific address, access the balances mapping.
-Development Environment
+#Development Environment
+
 The contract is developed using Solidity version 0.8.0. It follows the ERC20 token standard for compatibility with other Ethereum contracts and services.
 
 
