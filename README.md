@@ -2,7 +2,7 @@
 
 MyToken Contract
 Overview
-This repository contains the smart contract code for the MyToken token. MyToken is an ERC20 compatible token with the symbol "EON" and the name "EPSILON".
+This repository contains the smart contract code for the MyToken token. MyToken is an ERC20 compatible token with the symbol "PT" and the name "PTC".
 
 The contract allows the owner to mint new tokens and burn existing tokens. Only the owner has the authority to mint tokens, ensuring the integrity and controlled supply of the token.
 
