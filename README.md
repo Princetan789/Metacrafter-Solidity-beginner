@@ -15,6 +15,8 @@ The contract allows the owner to mint new tokens and burn existing tokens. Only 
 
 Token Name: PTC
 Token Symbol: PT
+
+
 #Functionalities
 
 
