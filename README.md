@@ -1,16 +1,16 @@
 
 
-#MyToken Contract
+# MyToken Contract
 
 
-#Overview
+# Overview
 
 
 This repository contains the smart contract code for the MyToken token. MyToken is an ERC20 compatible token with the symbol "PT" and the name "PTC".
 
 The contract allows the owner to mint new tokens and burn existing tokens. Only the owner has the authority to mint tokens, ensuring the integrity and controlled supply of the token.
 
-#Contract Details
+# Contract Details
 
 
 Token Name: PTC
@@ -18,23 +18,23 @@ Token Name: PTC
 Token Symbol: PT
 
 
-#Functionalities
+# Functionalities
 
 
-#Minting Tokens
+# Minting Tokens
 
 
 The mint function allows the contract owner to create and assign new tokens to a specific address. The function increases the total supply and updates the balance of the target address.
 
-#Burning Tokens
+# Burning Tokens
 
 The burn function allows the contract owner to remove existing tokens from a specific address. The function reduces the total supply and updates the balance of the target address.
 
-#Token Balance
+# Token Balance
 
 The balances mapping allows anyone to query the token balance of a specific address.
 
-#Deployment and Usage
+# Deployment and Usage
 
 To deploy the contract, follow these steps:
 
@@ -50,6 +50,6 @@ To query the balance of a specific address, access the balances mapping.
 The contract is developed using Solidity version 0.8.0. It follows the ERC20 token standard for compatibility with other Ethereum contracts and services.
 
 
-#License
+# License
 
 This project is licensed under the MIT License.
